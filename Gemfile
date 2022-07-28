@@ -6,7 +6,7 @@ gem 'sinatra-activerecord'
 gem 'rake'
 gem 'thin'
 gem 'require_all'
-gem 'activerecord', '4.2.5'
+gem 'activerecord', '5.2.8.1'
 
 
 
