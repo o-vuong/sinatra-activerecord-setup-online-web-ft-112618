@@ -1,12 +1,12 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
-gem 'sinatra'
+gem 'sinatra', '>= 2.2.3'
 gem 'sinatra-activerecord'
-gem 'rake'
+gem 'rake', '>= 12.3.3'
 gem 'thin'
 gem 'require_all'
-gem 'activerecord', '4.2.5'
+gem 'activerecord', '6.1.7.3'
 
 
 
@@ -20,5 +20,5 @@ end
 group :test do
   gem 'rspec'
   gem 'capybara'
-  gem 'rack-test'
+  gem 'rack-test', '>= 2.0.0'
 end
