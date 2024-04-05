@@ -1,10 +1,10 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
-gem 'sinatra'
-gem 'sinatra-activerecord'
+gem 'sinatra', '>= 2.0.2'
+gem 'sinatra-activerecord', '>= 2.0.14'
 gem 'rake'
-gem 'thin'
+gem 'thin', '>= 1.8.0'
 gem 'require_all'
 gem 'activerecord', '4.2.5'
 
@@ -19,6 +19,6 @@ end
 
 group :test do
   gem 'rspec'
-  gem 'capybara'
-  gem 'rack-test'
+  gem 'capybara', '>= 3.0.0'
+  gem 'rack-test', '>= 1.0.0'
 end
