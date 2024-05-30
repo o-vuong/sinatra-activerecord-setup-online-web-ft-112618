@@ -19,6 +19,6 @@ end
 
 group :test do
   gem 'rspec'
-  gem 'capybara'
+  gem 'capybara', '>= 3.0.0'
   gem 'rack-test'
 end
